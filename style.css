@@ -1,0 +1,87 @@
+
+
+body{
+    background-image: url(imagens/tela-inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 98.3vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.795);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav {
+    text-align: right;
+    font-size: 20px;
+    margin: 10px;
+    padding-top: 5px;
+}
+a {
+    color: aliceblue;
+    font: normal 19px Arial, Verdana, serif;
+    margin: 15px;
+    text-decoration: none;
+        
+}
+div.login{
+    background-color: rgba(255, 255, 255, 0.466);
+    margin: 2px;
+    height: 440px;
+    width: 350px;
+    border: 2px solid rgb(192, 189, 189) ;
+    box-shadow: black 0.5px 0.5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, -65%);
+    
+} 
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.911);
+}
+.login-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.login-box label {
+    margin-bottom: 5px;
+    margin-left:  10px;
+    padding: 5px 0px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-box input {
+    text-align: center;
+    padding: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #0702029c;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+
+.login input[type="submit"] {
+    display: block;
+    margin: 20px auto; /* centraliza sem empurrar para baixo demais */
+    padding: 10px 30px;
+    background-color: #006494d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
