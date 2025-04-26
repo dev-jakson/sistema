@@ -1,87 +1,88 @@
 
-
-body{
-    background-image: url(imagens/tela-inicio.jpg);
+body {
+    height: 96vh;
+    background-color: black;
+    background-image: url('imagens/tela-inicio.jpg');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 98.3vh;
+    background-attachment: fixed;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     background-color: rgba(0, 0, 0, 0.795);
     height: 50px;
     width: 100%;
+    padding: 2px;
     position: fixed;
     top: 0;
     left: 0;
 }
-nav {
-    text-align: right;
-    font-size: 20px;
-    margin: 10px;
-    padding-top: 5px;
+
+#logo {
+    height: 50px;
+    width: 600px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
 }
-a {
-    color: aliceblue;
-    font: normal 19px Arial, Verdana, serif;
-    margin: 15px;
+
+#logo h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+#menu {
+    height: 50px;
+    width: 400px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+
+#menu a {
     text-decoration: none;
-        
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+
 }
-div.login{
+
+#menu a:hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+    font-size: 20px;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+main {
     background-color: rgba(255, 255, 255, 0.466);
+    width: 320px;
+    height: 450px;
+    padding: 10px;
     margin: 2px;
-    height: 440px;
-    width: 350px;
-    border: 2px solid rgb(192, 189, 189) ;
-    box-shadow: black 0.5px 0.5px 10px;
-    border-radius: 5px;
+    border: 1px solid rgb(192, 189, 189);
+    border-radius: 15px;
+    box-shadow: black 0.2px 0.1px 4px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(150%, -65%);
-    
-} 
+    transform: translate(170%, -65%);
+}
+
 h1 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(0, 0, 0, 0.911);
-}
-.login-box {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
-
-.login-box label {
-    margin-bottom: 5px;
-    margin-left:  10px;
-    padding: 5px 0px;
-    font-weight: bold;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.login-box input {
-    text-align: center;
-    padding: 11px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 1px solid #0702029c;
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.863);
-}
-
-
-.login input[type="submit"] {
-    display: block;
-    margin: 20px auto; /* centraliza sem empurrar para baixo demais */
-    padding: 10px 30px;
-    background-color: #006494d7;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: larger;
-    cursor: pointer;
 }
